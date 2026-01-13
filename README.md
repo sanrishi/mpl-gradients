@@ -33,7 +33,7 @@ for bar in ax.containers[0]:
     bar.set_agg_filter(gradient)
 
 plt.show()
-
+```
 ## Requirements
 Python 3.9+
 
