@@ -1,5 +1,5 @@
 # mpl-gradients
-
+![Gradient Demo](assets/polished_demo.png)
 A lightweight library to add linear gradient fills to Matplotlib charts.
 
 ## Usage
