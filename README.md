@@ -43,3 +43,22 @@ Python 3.9+
 Matplotlib
 
 Numpy
+
+## New in v0.2.0: Transparency Support
+
+You can now create gradients that fade to transparent!
+
+By default, gradients preserve the original alpha of the plot (`preserve_alpha=True`).
+To create transparent gradients (e.g., Red -> Transparent), set `preserve_alpha=False`.
+
+```python
+from mpl_gradients import LinearGradient
+
+# Create a gradient that fades from Red to Transparent to Green
+gradient = LinearGradient.from_colors(
+    ["red", "#ffffff00", "green"],
+    preserve_alpha=False
+)
+
+# Apply it
+ax.fill_between(x, y, color="blue").set_agg_filter(gradient)
