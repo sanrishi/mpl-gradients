@@ -1,5 +1,6 @@
 # mpl-gradients
 
+[![PyPI version](https://badge.fury.io/py/mpl-gradients.svg)](https://badge.fury.io/py/mpl-gradients)
 ![Gradient Demo](assets/polished_demo.png)
 
 A lightweight, zero-dependency library to add linear gradient fills to Matplotlib charts.
@@ -16,9 +17,11 @@ A lightweight, zero-dependency library to add linear gradient fills to Matplotli
 You can install directly from GitHub:
 
 ```bash
-pip install git+[https://github.com/sanrishi/mpl-gradients.git](https://github.com/sanrishi/mpl-gradients.git)
+pip install mpl-gradients
+```
 
 ## Quick start 
+```python
 import matplotlib.pyplot as plt
 from mpl_gradients import LinearGradient
 
