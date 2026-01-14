@@ -1,10 +1,17 @@
 # mpl-gradients
 
 [![PyPI version](https://badge.fury.io/py/mpl-gradients.svg)](https://badge.fury.io/py/mpl-gradients)
-![Gradient Demo](assets/polished_demo.png)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+![Gradient Demo](examples/demo_output.png)
 
 A lightweight, zero-dependency library to add linear gradient fills to Matplotlib charts.
 *Solves [matplotlib/matplotlib#30958](https://github.com/matplotlib/matplotlib/issues/30958).*
+
+## 📦 Installation
+
+```bash
+pip install mpl-gradients
 
 ## Features
 * **Vertical Gradients:** Fade from Top to Bottom.
