@@ -5,7 +5,7 @@
 [![PyPI version](https://badge.fury.io/py/mpl-gradients.svg)](https://badge.fury.io/py/mpl-gradients)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<img width="819" height="421" alt="image" src="https://github.com/user-attachments/assets/bcd791ba-6cc6-404a-9cf4-839ae227a056" />
+<img width="700" height="353" alt="image" src="https://github.com/user-attachments/assets/4a6ce8e4-724d-4254-a7c8-176cab27db0c" />
 
 A zero-dependency plotting utility that implements vectorized gradient rendering for Matplotlib Figure and Axes objects. Unlike other styling libraries that require heavy dependencies (like Pillow or Qt), mpl-gradients leverages NumPy broadcasting to generate gradient arrays directly within the Matplotlib canvas.
 
